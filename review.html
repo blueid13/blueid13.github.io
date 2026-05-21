@@ -1,0 +1,72 @@
+<!doctype html>
+<html lang="ko">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>ECG Review</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body class="review-page">
+  <div class="review-shell">
+    <header class="control-panel">
+      <div class="top-row">
+        <a class="back-link" href="index.html">← 메인</a>
+        <div class="case-title">
+          <span id="caseLabel">Loading...</span>
+          <small id="progressLabel"></small>
+        </div>
+        <div class="status-stack">
+          <span id="saveStatus" class="status-pill">대기 중</span>
+          <span id="syncStatus" class="status-pill muted-pill">Sheets 미연동</span>
+        </div>
+      </div>
+
+      <div class="form-row">
+        <fieldset class="radio-group">
+          <legend>라벨 판정</legend>
+          <label><input type="radio" name="verdict" value="match" /> 맞음</label>
+          <label><input type="radio" name="verdict" value="mismatch" /> 아님</label>
+          <label><input type="radio" name="verdict" value="uncertain" /> 판단 어려움</label>
+        </fieldset>
+
+        <fieldset class="checkbox-group">
+          <legend>실제로 의심되는 소견</legend>
+          <label><input type="checkbox" name="observed" value="AMI" /> AMI</label>
+          <label><input type="checkbox" name="observed" value="IMI" /> IMI</label>
+          <label><input type="checkbox" name="observed" value="LMI" /> LMI</label>
+          <label><input type="checkbox" name="observed" value="NORM" /> NORM</label>
+          <label><input type="checkbox" name="observed" value="Other" /> 기타</label>
+        </fieldset>
+
+        <fieldset class="checkbox-group reason-box">
+          <legend>이유</legend>
+          <label><input type="checkbox" name="reason" value="Q-wave not clear" /> Q wave 불명확</label>
+          <label><input type="checkbox" name="reason" value="ST/T morphology not convincing" /> ST/T 소견 부족</label>
+          <label><input type="checkbox" name="reason" value="Poor lead quality" /> 리드 품질 문제</label>
+          <label><input type="checkbox" name="reason" value="Different territory" /> 다른 부위 가능성</label>
+          <label><input type="checkbox" name="reason" value="No clear MI pattern" /> MI 패턴 불명확</label>
+        </fieldset>
+
+        <label class="comment-box">
+          <span>분석 사유 / 메모</span>
+          <textarea id="commentInput" rows="3" placeholder="예: V2–V4 ST elevation은 보이나 Q wave가 뚜렷하지 않음"></textarea>
+        </label>
+      </div>
+
+      <div class="nav-row">
+        <button id="prevBtn" class="secondary">← 이전</button>
+        <button id="saveBtn" class="primary">저장 / Sheets 전송</button>
+        <button id="nextBtn" class="secondary">다음 →</button>
+        <button id="exportGroupBtn" class="secondary">이 질병군 CSV 다운로드</button>
+        <span class="shortcut-help">단축키: ←/→ 이동 · 1 맞음 · 2 아님 · 3 어려움 · Ctrl/⌘+S 저장</span>
+      </div>
+    </header>
+
+    <main class="ecg-area">
+      <img id="ecgImage" alt="12-lead ECG" />
+    </main>
+  </div>
+  <script src="config.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>

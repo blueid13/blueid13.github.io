@@ -1,0 +1,1265 @@
+{
+  "app": "ECG label verification site",
+  "version": "1.0.0",
+  "generated_at": "2026-05-21T06:36:44.569834+00:00",
+  "counts": {
+    "AMI": 51,
+    "IMI": 58,
+    "LMI": 47
+  },
+  "groups": [
+    "AMI",
+    "IMI",
+    "LMI"
+  ],
+  "cases": [
+    {
+      "group": "AMI",
+      "case_id": "01541",
+      "filename": "01541.png",
+      "path": "images/AMI/01541.png",
+      "width": 5378,
+      "height": 2494
+    },
+    {
+      "group": "AMI",
+      "case_id": "01550",
+      "filename": "01550.png",
+      "path": "images/AMI/01550.png",
+      "width": 5378,
+      "height": 2494
+    },
+    {
+      "group": "AMI",
+      "case_id": "01853",
+      "filename": "01853.png",
+      "path": "images/AMI/01853.png",
+      "width": 5378,
+      "height": 2494
+    },
+    {
+      "group": "AMI",
+      "case_id": "02650",
+      "filename": "02650.png",
+      "path": "images/AMI/02650.png",
+      "width": 5378,
+      "height": 2494
+    },
+    {
+      "group": "AMI",
+      "case_id": "02740",
+      "filename": "02740.png",
+      "path": "images/AMI/02740.png",
+      "width": 5378,
+      "height": 2494
+    },
+    {
+      "group": "AMI",
+      "case_id": "03309",
+      "filename": "03309.png",
+      "path": "images/AMI/03309.png",
+      "width": 5378,
+      "height": 2494
+    },
+    {
+      "group": "AMI",
+      "case_id": "03599",
+      "filename": "03599.png",
+      "path": "images/AMI/03599.png",
+      "width": 5378,
+      "height": 2494
+    },
+    {
+      "group": "AMI",
+      "case_id": "03777",
+      "filename": "03777.png",
+      "path": "images/AMI/03777.png",
+      "width": 5378,
+      "height": 2494
+    },
+    {
+      "group": "AMI",
+      "case_id": "04004",
+      "filename": "04004.png",
+      "path": "images/AMI/04004.png",
+      "width": 5378,
+      "height": 2494
+    },
+    {
+      "group": "AMI",
+      "case_id": "04270",
+      "filename": "04270.png",
+      "path": "images/AMI/04270.png",
+      "width": 5378,
+      "height": 2494
+    },
+    {
+      "group": "AMI",
+      "case_id": "04617",
+      "filename": "04617.png",
+      "path": "images/AMI/04617.png",
+      "width": 5378,
+      "height": 2494
+    },
+    {
+      "group": "AMI",
+      "case_id": "04673",
+      "filename": "04673.png",
+      "path": "images/AMI/04673.png",
+      "width": 5378,
+      "height": 2494
+    },
+    {
+      "group": "AMI",
+      "case_id": "04812",
+      "filename": "04812.png",
+      "path": "images/AMI/04812.png",
+      "width": 5378,
+      "height": 2494
+    },
+    {
+      "group": "AMI",
+      "case_id": "04891",
+      "filename": "04891.png",
+      "path": "images/AMI/04891.png",
+      "width": 5378,
+      "height": 2494
+    },
+    {
+      "group": "AMI",
+      "case_id": "04946",
+      "filename": "04946.png",
+      "path": "images/AMI/04946.png",
+      "width": 5378,
+      "height": 2494
+    },
+    {
+      "group": "AMI",
+      "case_id": "04953",
+      "filename": "04953.png",
+      "path": "images/AMI/04953.png",
+      "width": 5378,
+      "height": 2494
+    },
+    {
+      "group": "AMI",
+      "case_id": "05179",
+      "filename": "05179.png",
+      "path": "images/AMI/05179.png",
+      "width": 5378,
+      "height": 2494
+    },
+    {
+      "group": "AMI",
+      "case_id": "05593",
+      "filename": "05593.png",
+      "path": "images/AMI/05593.png",
+      "width": 5378,
+      "height": 2494
+    },
+    {
+      "group": "AMI",
+      "case_id": "05684",
+      "filename": "05684.png",
+      "path": "images/AMI/05684.png",
+      "width": 5378,
+      "height": 2494
+    },
+    {
+      "group": "AMI",
+      "case_id": "16038",
+      "filename": "16038.png",
+      "path": "images/AMI/16038.png",
+      "width": 5378,
+      "height": 2494
+    },
+    {
+      "group": "AMI",
+      "case_id": "16427",
+      "filename": "16427.png",
+      "path": "images/AMI/16427.png",
+      "width": 5378,
+      "height": 2494
+    },
+    {
+      "group": "AMI",
+      "case_id": "16546",
+      "filename": "16546.png",
+      "path": "images/AMI/16546.png",
+      "width": 5378,
+      "height": 2494
+    },
+    {
+      "group": "AMI",
+      "case_id": "16581",
+      "filename": "16581.png",
+      "path": "images/AMI/16581.png",
+      "width": 5378,
+      "height": 2494
+    },
+    {
+      "group": "AMI",
+      "case_id": "16619",
+      "filename": "16619.png",
+      "path": "images/AMI/16619.png",
+      "width": 5378,
+      "height": 2494
+    },
+    {
+      "group": "AMI",
+      "case_id": "16704",
+      "filename": "16704.png",
+      "path": "images/AMI/16704.png",
+      "width": 5378,
+      "height": 2494
+    },
+    {
+      "group": "AMI",
+      "case_id": "16728",
+      "filename": "16728.png",
+      "path": "images/AMI/16728.png",
+      "width": 5378,
+      "height": 2494
+    },
+    {
+      "group": "AMI",
+      "case_id": "16830",
+      "filename": "16830.png",
+      "path": "images/AMI/16830.png",
+      "width": 5378,
+      "height": 2494
+    },
+    {
+      "group": "AMI",
+      "case_id": "16839",
+      "filename": "16839.png",
+      "path": "images/AMI/16839.png",
+      "width": 5378,
+      "height": 2494
+    },
+    {
+      "group": "AMI",
+      "case_id": "16880",
+      "filename": "16880.png",
+      "path": "images/AMI/16880.png",
+      "width": 5378,
+      "height": 2494
+    },
+    {
+      "group": "AMI",
+      "case_id": "17087",
+      "filename": "17087.png",
+      "path": "images/AMI/17087.png",
+      "width": 5378,
+      "height": 2494
+    },
+    {
+      "group": "AMI",
+      "case_id": "17254",
+      "filename": "17254.png",
+      "path": "images/AMI/17254.png",
+      "width": 5378,
+      "height": 2494
+    },
+    {
+      "group": "AMI",
+      "case_id": "17419",
+      "filename": "17419.png",
+      "path": "images/AMI/17419.png",
+      "width": 5378,
+      "height": 2494
+    },
+    {
+      "group": "AMI",
+      "case_id": "17487",
+      "filename": "17487.png",
+      "path": "images/AMI/17487.png",
+      "width": 5378,
+      "height": 2494
+    },
+    {
+      "group": "AMI",
+      "case_id": "17493",
+      "filename": "17493.png",
+      "path": "images/AMI/17493.png",
+      "width": 5378,
+      "height": 2494
+    },
+    {
+      "group": "AMI",
+      "case_id": "17582",
+      "filename": "17582.png",
+      "path": "images/AMI/17582.png",
+      "width": 5378,
+      "height": 2494
+    },
+    {
+      "group": "AMI",
+      "case_id": "17884",
+      "filename": "17884.png",
+      "path": "images/AMI/17884.png",
+      "width": 5378,
+      "height": 2494
+    },
+    {
+      "group": "AMI",
+      "case_id": "17951",
+      "filename": "17951.png",
+      "path": "images/AMI/17951.png",
+      "width": 5378,
+      "height": 2494
+    },
+    {
+      "group": "AMI",
+      "case_id": "17961",
+      "filename": "17961.png",
+      "path": "images/AMI/17961.png",
+      "width": 5378,
+      "height": 2494
+    },
+    {
+      "group": "AMI",
+      "case_id": "18269",
+      "filename": "18269.png",
+      "path": "images/AMI/18269.png",
+      "width": 5378,
+      "height": 2494
+    },
+    {
+      "group": "AMI",
+      "case_id": "18421",
+      "filename": "18421.png",
+      "path": "images/AMI/18421.png",
+      "width": 5378,
+      "height": 2494
+    },
+    {
+      "group": "AMI",
+      "case_id": "18711",
+      "filename": "18711.png",
+      "path": "images/AMI/18711.png",
+      "width": 5378,
+      "height": 2494
+    },
+    {
+      "group": "AMI",
+      "case_id": "18734",
+      "filename": "18734.png",
+      "path": "images/AMI/18734.png",
+      "width": 5378,
+      "height": 2494
+    },
+    {
+      "group": "AMI",
+      "case_id": "18973",
+      "filename": "18973.png",
+      "path": "images/AMI/18973.png",
+      "width": 5378,
+      "height": 2494
+    },
+    {
+      "group": "AMI",
+      "case_id": "19061",
+      "filename": "19061.png",
+      "path": "images/AMI/19061.png",
+      "width": 5378,
+      "height": 2494
+    },
+    {
+      "group": "AMI",
+      "case_id": "19082",
+      "filename": "19082.png",
+      "path": "images/AMI/19082.png",
+      "width": 5378,
+      "height": 2494
+    },
+    {
+      "group": "AMI",
+      "case_id": "19341",
+      "filename": "19341.png",
+      "path": "images/AMI/19341.png",
+      "width": 5378,
+      "height": 2494
+    },
+    {
+      "group": "AMI",
+      "case_id": "19360",
+      "filename": "19360.png",
+      "path": "images/AMI/19360.png",
+      "width": 5378,
+      "height": 2494
+    },
+    {
+      "group": "AMI",
+      "case_id": "19582",
+      "filename": "19582.png",
+      "path": "images/AMI/19582.png",
+      "width": 5378,
+      "height": 2494
+    },
+    {
+      "group": "AMI",
+      "case_id": "19682",
+      "filename": "19682.png",
+      "path": "images/AMI/19682.png",
+      "width": 5378,
+      "height": 2494
+    },
+    {
+      "group": "AMI",
+      "case_id": "20098",
+      "filename": "20098.png",
+      "path": "images/AMI/20098.png",
+      "width": 5378,
+      "height": 2494
+    },
+    {
+      "group": "AMI",
+      "case_id": "20304",
+      "filename": "20304.png",
+      "path": "images/AMI/20304.png",
+      "width": 5378,
+      "height": 2494
+    },
+    {
+      "group": "IMI",
+      "case_id": "00453",
+      "filename": "00453.png",
+      "path": "images/IMI/00453.png",
+      "width": 5378,
+      "height": 2494
+    },
+    {
+      "group": "IMI",
+      "case_id": "00513",
+      "filename": "00513.png",
+      "path": "images/IMI/00513.png",
+      "width": 5378,
+      "height": 2494
+    },
+    {
+      "group": "IMI",
+      "case_id": "00532",
+      "filename": "00532.png",
+      "path": "images/IMI/00532.png",
+      "width": 5378,
+      "height": 2494
+    },
+    {
+      "group": "IMI",
+      "case_id": "00540",
+      "filename": "00540.png",
+      "path": "images/IMI/00540.png",
+      "width": 5378,
+      "height": 2494
+    },
+    {
+      "group": "IMI",
+      "case_id": "00544",
+      "filename": "00544.png",
+      "path": "images/IMI/00544.png",
+      "width": 5378,
+      "height": 2494
+    },
+    {
+      "group": "IMI",
+      "case_id": "00567",
+      "filename": "00567.png",
+      "path": "images/IMI/00567.png",
+      "width": 5378,
+      "height": 2494
+    },
+    {
+      "group": "IMI",
+      "case_id": "00579",
+      "filename": "00579.png",
+      "path": "images/IMI/00579.png",
+      "width": 5378,
+      "height": 2494
+    },
+    {
+      "group": "IMI",
+      "case_id": "00627",
+      "filename": "00627.png",
+      "path": "images/IMI/00627.png",
+      "width": 5378,
+      "height": 2494
+    },
+    {
+      "group": "IMI",
+      "case_id": "00646",
+      "filename": "00646.png",
+      "path": "images/IMI/00646.png",
+      "width": 5378,
+      "height": 2494
+    },
+    {
+      "group": "IMI",
+      "case_id": "00691",
+      "filename": "00691.png",
+      "path": "images/IMI/00691.png",
+      "width": 5378,
+      "height": 2494
+    },
+    {
+      "group": "IMI",
+      "case_id": "00706",
+      "filename": "00706.png",
+      "path": "images/IMI/00706.png",
+      "width": 5378,
+      "height": 2494
+    },
+    {
+      "group": "IMI",
+      "case_id": "00829",
+      "filename": "00829.png",
+      "path": "images/IMI/00829.png",
+      "width": 5378,
+      "height": 2494
+    },
+    {
+      "group": "IMI",
+      "case_id": "00957",
+      "filename": "00957.png",
+      "path": "images/IMI/00957.png",
+      "width": 5378,
+      "height": 2494
+    },
+    {
+      "group": "IMI",
+      "case_id": "01035",
+      "filename": "01035.png",
+      "path": "images/IMI/01035.png",
+      "width": 5378,
+      "height": 2494
+    },
+    {
+      "group": "IMI",
+      "case_id": "01224",
+      "filename": "01224.png",
+      "path": "images/IMI/01224.png",
+      "width": 5378,
+      "height": 2494
+    },
+    {
+      "group": "IMI",
+      "case_id": "01235",
+      "filename": "01235.png",
+      "path": "images/IMI/01235.png",
+      "width": 5378,
+      "height": 2494
+    },
+    {
+      "group": "IMI",
+      "case_id": "15463",
+      "filename": "15463.png",
+      "path": "images/IMI/15463.png",
+      "width": 5378,
+      "height": 2494
+    },
+    {
+      "group": "IMI",
+      "case_id": "15496",
+      "filename": "15496.png",
+      "path": "images/IMI/15496.png",
+      "width": 5378,
+      "height": 2494
+    },
+    {
+      "group": "IMI",
+      "case_id": "15512",
+      "filename": "15512.png",
+      "path": "images/IMI/15512.png",
+      "width": 5378,
+      "height": 2494
+    },
+    {
+      "group": "IMI",
+      "case_id": "15537",
+      "filename": "15537.png",
+      "path": "images/IMI/15537.png",
+      "width": 5378,
+      "height": 2494
+    },
+    {
+      "group": "IMI",
+      "case_id": "15563",
+      "filename": "15563.png",
+      "path": "images/IMI/15563.png",
+      "width": 5378,
+      "height": 2494
+    },
+    {
+      "group": "IMI",
+      "case_id": "15564",
+      "filename": "15564.png",
+      "path": "images/IMI/15564.png",
+      "width": 5378,
+      "height": 2494
+    },
+    {
+      "group": "IMI",
+      "case_id": "15573",
+      "filename": "15573.png",
+      "path": "images/IMI/15573.png",
+      "width": 5378,
+      "height": 2494
+    },
+    {
+      "group": "IMI",
+      "case_id": "15578",
+      "filename": "15578.png",
+      "path": "images/IMI/15578.png",
+      "width": 5378,
+      "height": 2494
+    },
+    {
+      "group": "IMI",
+      "case_id": "15593",
+      "filename": "15593.png",
+      "path": "images/IMI/15593.png",
+      "width": 5378,
+      "height": 2494
+    },
+    {
+      "group": "IMI",
+      "case_id": "15595",
+      "filename": "15595.png",
+      "path": "images/IMI/15595.png",
+      "width": 5378,
+      "height": 2494
+    },
+    {
+      "group": "IMI",
+      "case_id": "15597",
+      "filename": "15597.png",
+      "path": "images/IMI/15597.png",
+      "width": 5378,
+      "height": 2494
+    },
+    {
+      "group": "IMI",
+      "case_id": "15616",
+      "filename": "15616.png",
+      "path": "images/IMI/15616.png",
+      "width": 5378,
+      "height": 2494
+    },
+    {
+      "group": "IMI",
+      "case_id": "15626",
+      "filename": "15626.png",
+      "path": "images/IMI/15626.png",
+      "width": 5378,
+      "height": 2494
+    },
+    {
+      "group": "IMI",
+      "case_id": "15657",
+      "filename": "15657.png",
+      "path": "images/IMI/15657.png",
+      "width": 5378,
+      "height": 2494
+    },
+    {
+      "group": "IMI",
+      "case_id": "15705",
+      "filename": "15705.png",
+      "path": "images/IMI/15705.png",
+      "width": 5378,
+      "height": 2494
+    },
+    {
+      "group": "IMI",
+      "case_id": "15707",
+      "filename": "15707.png",
+      "path": "images/IMI/15707.png",
+      "width": 5378,
+      "height": 2494
+    },
+    {
+      "group": "IMI",
+      "case_id": "15730",
+      "filename": "15730.png",
+      "path": "images/IMI/15730.png",
+      "width": 5378,
+      "height": 2494
+    },
+    {
+      "group": "IMI",
+      "case_id": "15739",
+      "filename": "15739.png",
+      "path": "images/IMI/15739.png",
+      "width": 5378,
+      "height": 2494
+    },
+    {
+      "group": "IMI",
+      "case_id": "15793",
+      "filename": "15793.png",
+      "path": "images/IMI/15793.png",
+      "width": 5378,
+      "height": 2494
+    },
+    {
+      "group": "IMI",
+      "case_id": "15836",
+      "filename": "15836.png",
+      "path": "images/IMI/15836.png",
+      "width": 5378,
+      "height": 2494
+    },
+    {
+      "group": "IMI",
+      "case_id": "15843",
+      "filename": "15843.png",
+      "path": "images/IMI/15843.png",
+      "width": 5378,
+      "height": 2494
+    },
+    {
+      "group": "IMI",
+      "case_id": "15866",
+      "filename": "15866.png",
+      "path": "images/IMI/15866.png",
+      "width": 5378,
+      "height": 2494
+    },
+    {
+      "group": "IMI",
+      "case_id": "15869",
+      "filename": "15869.png",
+      "path": "images/IMI/15869.png",
+      "width": 5378,
+      "height": 2494
+    },
+    {
+      "group": "IMI",
+      "case_id": "15966",
+      "filename": "15966.png",
+      "path": "images/IMI/15966.png",
+      "width": 5378,
+      "height": 2494
+    },
+    {
+      "group": "IMI",
+      "case_id": "15970",
+      "filename": "15970.png",
+      "path": "images/IMI/15970.png",
+      "width": 5378,
+      "height": 2494
+    },
+    {
+      "group": "IMI",
+      "case_id": "15990",
+      "filename": "15990.png",
+      "path": "images/IMI/15990.png",
+      "width": 5378,
+      "height": 2494
+    },
+    {
+      "group": "IMI",
+      "case_id": "16010",
+      "filename": "16010.png",
+      "path": "images/IMI/16010.png",
+      "width": 5378,
+      "height": 2494
+    },
+    {
+      "group": "IMI",
+      "case_id": "16049",
+      "filename": "16049.png",
+      "path": "images/IMI/16049.png",
+      "width": 5378,
+      "height": 2494
+    },
+    {
+      "group": "IMI",
+      "case_id": "16061",
+      "filename": "16061.png",
+      "path": "images/IMI/16061.png",
+      "width": 5378,
+      "height": 2494
+    },
+    {
+      "group": "IMI",
+      "case_id": "16118",
+      "filename": "16118.png",
+      "path": "images/IMI/16118.png",
+      "width": 5378,
+      "height": 2494
+    },
+    {
+      "group": "IMI",
+      "case_id": "16123",
+      "filename": "16123.png",
+      "path": "images/IMI/16123.png",
+      "width": 5378,
+      "height": 2494
+    },
+    {
+      "group": "IMI",
+      "case_id": "21377",
+      "filename": "21377.png",
+      "path": "images/IMI/21377.png",
+      "width": 5378,
+      "height": 2494
+    },
+    {
+      "group": "IMI",
+      "case_id": "21398",
+      "filename": "21398.png",
+      "path": "images/IMI/21398.png",
+      "width": 5378,
+      "height": 2494
+    },
+    {
+      "group": "IMI",
+      "case_id": "21476",
+      "filename": "21476.png",
+      "path": "images/IMI/21476.png",
+      "width": 5378,
+      "height": 2494
+    },
+    {
+      "group": "IMI",
+      "case_id": "21485",
+      "filename": "21485.png",
+      "path": "images/IMI/21485.png",
+      "width": 5378,
+      "height": 2494
+    },
+    {
+      "group": "IMI",
+      "case_id": "21511",
+      "filename": "21511.png",
+      "path": "images/IMI/21511.png",
+      "width": 5378,
+      "height": 2494
+    },
+    {
+      "group": "IMI",
+      "case_id": "21527",
+      "filename": "21527.png",
+      "path": "images/IMI/21527.png",
+      "width": 5378,
+      "height": 2494
+    },
+    {
+      "group": "IMI",
+      "case_id": "21534",
+      "filename": "21534.png",
+      "path": "images/IMI/21534.png",
+      "width": 5378,
+      "height": 2494
+    },
+    {
+      "group": "IMI",
+      "case_id": "21585",
+      "filename": "21585.png",
+      "path": "images/IMI/21585.png",
+      "width": 5378,
+      "height": 2494
+    },
+    {
+      "group": "IMI",
+      "case_id": "21596",
+      "filename": "21596.png",
+      "path": "images/IMI/21596.png",
+      "width": 5378,
+      "height": 2494
+    },
+    {
+      "group": "IMI",
+      "case_id": "21788",
+      "filename": "21788.png",
+      "path": "images/IMI/21788.png",
+      "width": 5378,
+      "height": 2494
+    },
+    {
+      "group": "IMI",
+      "case_id": "21815",
+      "filename": "21815.png",
+      "path": "images/IMI/21815.png",
+      "width": 5378,
+      "height": 2494
+    },
+    {
+      "group": "LMI",
+      "case_id": "00651",
+      "filename": "00651.png",
+      "path": "images/LMI/00651.png",
+      "width": 5378,
+      "height": 2494
+    },
+    {
+      "group": "LMI",
+      "case_id": "01012",
+      "filename": "01012.png",
+      "path": "images/LMI/01012.png",
+      "width": 5378,
+      "height": 2494
+    },
+    {
+      "group": "LMI",
+      "case_id": "01049",
+      "filename": "01049.png",
+      "path": "images/LMI/01049.png",
+      "width": 5378,
+      "height": 2494
+    },
+    {
+      "group": "LMI",
+      "case_id": "03407",
+      "filename": "03407.png",
+      "path": "images/LMI/03407.png",
+      "width": 5378,
+      "height": 2494
+    },
+    {
+      "group": "LMI",
+      "case_id": "04377",
+      "filename": "04377.png",
+      "path": "images/LMI/04377.png",
+      "width": 5378,
+      "height": 2494
+    },
+    {
+      "group": "LMI",
+      "case_id": "04712",
+      "filename": "04712.png",
+      "path": "images/LMI/04712.png",
+      "width": 5378,
+      "height": 2494
+    },
+    {
+      "group": "LMI",
+      "case_id": "05258",
+      "filename": "05258.png",
+      "path": "images/LMI/05258.png",
+      "width": 5378,
+      "height": 2494
+    },
+    {
+      "group": "LMI",
+      "case_id": "05474",
+      "filename": "05474.png",
+      "path": "images/LMI/05474.png",
+      "width": 5378,
+      "height": 2494
+    },
+    {
+      "group": "LMI",
+      "case_id": "05526",
+      "filename": "05526.png",
+      "path": "images/LMI/05526.png",
+      "width": 5378,
+      "height": 2494
+    },
+    {
+      "group": "LMI",
+      "case_id": "05755",
+      "filename": "05755.png",
+      "path": "images/LMI/05755.png",
+      "width": 5378,
+      "height": 2494
+    },
+    {
+      "group": "LMI",
+      "case_id": "06606",
+      "filename": "06606.png",
+      "path": "images/LMI/06606.png",
+      "width": 5378,
+      "height": 2494
+    },
+    {
+      "group": "LMI",
+      "case_id": "06691",
+      "filename": "06691.png",
+      "path": "images/LMI/06691.png",
+      "width": 5378,
+      "height": 2494
+    },
+    {
+      "group": "LMI",
+      "case_id": "06784",
+      "filename": "06784.png",
+      "path": "images/LMI/06784.png",
+      "width": 5378,
+      "height": 2494
+    },
+    {
+      "group": "LMI",
+      "case_id": "06863",
+      "filename": "06863.png",
+      "path": "images/LMI/06863.png",
+      "width": 5378,
+      "height": 2494
+    },
+    {
+      "group": "LMI",
+      "case_id": "07148",
+      "filename": "07148.png",
+      "path": "images/LMI/07148.png",
+      "width": 5378,
+      "height": 2494
+    },
+    {
+      "group": "LMI",
+      "case_id": "07280",
+      "filename": "07280.png",
+      "path": "images/LMI/07280.png",
+      "width": 5378,
+      "height": 2494
+    },
+    {
+      "group": "LMI",
+      "case_id": "07489",
+      "filename": "07489.png",
+      "path": "images/LMI/07489.png",
+      "width": 5378,
+      "height": 2494
+    },
+    {
+      "group": "LMI",
+      "case_id": "07876",
+      "filename": "07876.png",
+      "path": "images/LMI/07876.png",
+      "width": 5378,
+      "height": 2494
+    },
+    {
+      "group": "LMI",
+      "case_id": "08048",
+      "filename": "08048.png",
+      "path": "images/LMI/08048.png",
+      "width": 5378,
+      "height": 2494
+    },
+    {
+      "group": "LMI",
+      "case_id": "08465",
+      "filename": "08465.png",
+      "path": "images/LMI/08465.png",
+      "width": 5378,
+      "height": 2494
+    },
+    {
+      "group": "LMI",
+      "case_id": "08513",
+      "filename": "08513.png",
+      "path": "images/LMI/08513.png",
+      "width": 5378,
+      "height": 2494
+    },
+    {
+      "group": "LMI",
+      "case_id": "08554",
+      "filename": "08554.png",
+      "path": "images/LMI/08554.png",
+      "width": 5378,
+      "height": 2494
+    },
+    {
+      "group": "LMI",
+      "case_id": "09144",
+      "filename": "09144.png",
+      "path": "images/LMI/09144.png",
+      "width": 5378,
+      "height": 2494
+    },
+    {
+      "group": "LMI",
+      "case_id": "10873",
+      "filename": "10873.png",
+      "path": "images/LMI/10873.png",
+      "width": 5378,
+      "height": 2494
+    },
+    {
+      "group": "LMI",
+      "case_id": "11283",
+      "filename": "11283.png",
+      "path": "images/LMI/11283.png",
+      "width": 5378,
+      "height": 2494
+    },
+    {
+      "group": "LMI",
+      "case_id": "11291",
+      "filename": "11291.png",
+      "path": "images/LMI/11291.png",
+      "width": 5378,
+      "height": 2494
+    },
+    {
+      "group": "LMI",
+      "case_id": "11424",
+      "filename": "11424.png",
+      "path": "images/LMI/11424.png",
+      "width": 5378,
+      "height": 2494
+    },
+    {
+      "group": "LMI",
+      "case_id": "11542",
+      "filename": "11542.png",
+      "path": "images/LMI/11542.png",
+      "width": 5378,
+      "height": 2494
+    },
+    {
+      "group": "LMI",
+      "case_id": "11659",
+      "filename": "11659.png",
+      "path": "images/LMI/11659.png",
+      "width": 5378,
+      "height": 2494
+    },
+    {
+      "group": "LMI",
+      "case_id": "12162",
+      "filename": "12162.png",
+      "path": "images/LMI/12162.png",
+      "width": 5378,
+      "height": 2494
+    },
+    {
+      "group": "LMI",
+      "case_id": "12678",
+      "filename": "12678.png",
+      "path": "images/LMI/12678.png",
+      "width": 5378,
+      "height": 2494
+    },
+    {
+      "group": "LMI",
+      "case_id": "13160",
+      "filename": "13160.png",
+      "path": "images/LMI/13160.png",
+      "width": 5378,
+      "height": 2494
+    },
+    {
+      "group": "LMI",
+      "case_id": "13787",
+      "filename": "13787.png",
+      "path": "images/LMI/13787.png",
+      "width": 5378,
+      "height": 2494
+    },
+    {
+      "group": "LMI",
+      "case_id": "13873",
+      "filename": "13873.png",
+      "path": "images/LMI/13873.png",
+      "width": 5378,
+      "height": 2494
+    },
+    {
+      "group": "LMI",
+      "case_id": "14752",
+      "filename": "14752.png",
+      "path": "images/LMI/14752.png",
+      "width": 5378,
+      "height": 2494
+    },
+    {
+      "group": "LMI",
+      "case_id": "15298",
+      "filename": "15298.png",
+      "path": "images/LMI/15298.png",
+      "width": 5378,
+      "height": 2494
+    },
+    {
+      "group": "LMI",
+      "case_id": "15329",
+      "filename": "15329.png",
+      "path": "images/LMI/15329.png",
+      "width": 5378,
+      "height": 2494
+    },
+    {
+      "group": "LMI",
+      "case_id": "15333",
+      "filename": "15333.png",
+      "path": "images/LMI/15333.png",
+      "width": 5378,
+      "height": 2494
+    },
+    {
+      "group": "LMI",
+      "case_id": "15877",
+      "filename": "15877.png",
+      "path": "images/LMI/15877.png",
+      "width": 5378,
+      "height": 2494
+    },
+    {
+      "group": "LMI",
+      "case_id": "16732",
+      "filename": "16732.png",
+      "path": "images/LMI/16732.png",
+      "width": 5378,
+      "height": 2494
+    },
+    {
+      "group": "LMI",
+      "case_id": "17129",
+      "filename": "17129.png",
+      "path": "images/LMI/17129.png",
+      "width": 5378,
+      "height": 2494
+    },
+    {
+      "group": "LMI",
+      "case_id": "17567",
+      "filename": "17567.png",
+      "path": "images/LMI/17567.png",
+      "width": 5378,
+      "height": 2494
+    },
+    {
+      "group": "LMI",
+      "case_id": "17626",
+      "filename": "17626.png",
+      "path": "images/LMI/17626.png",
+      "width": 5378,
+      "height": 2494
+    },
+    {
+      "group": "LMI",
+      "case_id": "18097",
+      "filename": "18097.png",
+      "path": "images/LMI/18097.png",
+      "width": 5378,
+      "height": 2494
+    },
+    {
+      "group": "LMI",
+      "case_id": "18198",
+      "filename": "18198.png",
+      "path": "images/LMI/18198.png",
+      "width": 5378,
+      "height": 2494
+    },
+    {
+      "group": "LMI",
+      "case_id": "19561",
+      "filename": "19561.png",
+      "path": "images/LMI/19561.png",
+      "width": 5378,
+      "height": 2494
+    },
+    {
+      "group": "LMI",
+      "case_id": "19566",
+      "filename": "19566.png",
+      "path": "images/LMI/19566.png",
+      "width": 5378,
+      "height": 2494
+    }
+  ]
+}

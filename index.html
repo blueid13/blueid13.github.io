@@ -1,0 +1,55 @@
+<!doctype html>
+<html lang="ko">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>ECG Label Verification</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body class="home-page">
+  <main class="home-shell">
+    <section class="hero-card">
+      <div>
+        <p class="eyebrow">ECG Blind / Label Verification</p>
+        <h1>ECG 데이터 검증 페이지</h1>
+        <p class="muted">질병군을 선택하면 12-lead ECG 이미지를 슬라이드처럼 넘기며 판정할 수 있습니다.</p>
+      </div>
+      <div class="home-actions">
+        <button id="exportAllBtn" class="secondary">현재 브라우저 저장값 CSV 다운로드</button>
+        <button id="clearLocalBtn" class="danger-ghost">로컬 저장값 초기화</button>
+      </div>
+    </section>
+
+    <section class="setup-grid">
+      <label class="field-card">
+        <span>Reviewer ID</span>
+        <input id="reviewerInput" type="text" placeholder="예: prof_a / reviewer01" autocomplete="off" />
+        <small>Google Sheets에 함께 저장됩니다.</small>
+      </label>
+      <label class="field-card wide">
+        <span>Google Apps Script Web App URL</span>
+        <input id="scriptUrlInput" type="url" placeholder="https://script.google.com/macros/s/.../exec" autocomplete="off" />
+        <small>비워두면 브라우저에만 저장되고 CSV 다운로드만 가능합니다.</small>
+      </label>
+      <label class="field-card">
+        <span>저장 토큰</span>
+        <input id="tokenInput" type="password" placeholder="선택 사항" autocomplete="off" />
+        <small>Apps Script에서 SECRET을 설정한 경우에만 사용합니다.</small>
+      </label>
+    </section>
+
+    <section>
+      <h2>질병군 선택</h2>
+      <div id="groupCards" class="group-grid"></div>
+    </section>
+
+    <section class="notice-card">
+      <strong>주의</strong>
+      <p>AMI / IMI / LMI로 들어가면 해당 후보군임을 알고 판정하게 됩니다. 완전 블라인드 판정이 필요하면 “전체 섞어서 보기”를 사용하세요.</p>
+      <a class="link" href="review.html?group=ALL&shuffle=1">전체 섞어서 보기</a>
+    </section>
+  </main>
+  <script src="config.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>
