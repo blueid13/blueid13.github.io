@@ -1,31 +1,28 @@
 /**
- * ECG Review Google Apps Script backend
+ * ECG Review Google Apps Script backend - simplified version
  *
  * Setup:
  * 1. Create a Google Sheet.
  * 2. Extensions > Apps Script.
  * 3. Paste this file into Code.gs.
- * 4. Set SECRET below if you want simple write protection.
- * 5. Deploy > New deployment > Web app.
+ * 4. Deploy > New deployment > Web app.
  *    - Execute as: Me
  *    - Who has access: Anyone with the link
- * 6. Copy the Web app URL into the review site's main page.
+ * 5. Copy the Web app URL into config.js as APPS_SCRIPT_URL.
  */
 
 const SHEET_NAME = 'responses';
-const SECRET = ''; // Optional. If non-empty, incoming payload.token must match this value.
 
 const HEADERS = [
+  'response_key',
   'server_timestamp',
   'client_timestamp',
-  'reviewer_id',
   'session_id',
   'disease_group',
   'case_id',
   'image_path',
   'verdict',
   'observed_labels',
-  'reasons',
   'comment',
   'elapsed_ms',
   'app_version',
@@ -42,33 +39,33 @@ function doGet() {
 function doPost(e) {
   try {
     const payload = parsePayload_(e);
-
-    if (SECRET && payload.token !== SECRET) {
-      return ContentService
-        .createTextOutput(JSON.stringify({ ok: false, error: 'Invalid token' }))
-        .setMimeType(ContentService.MimeType.JSON);
-    }
-
     const sheet = getOrCreateSheet_();
     ensureHeaders_(sheet);
 
-    sheet.appendRow([
+    const key = payload.response_key || [payload.disease_group || '', payload.case_id || ''].join('__');
+    const row = [
+      key,
       new Date(),
       payload.client_timestamp || '',
-      payload.reviewer_id || '',
       payload.session_id || '',
       payload.disease_group || '',
       payload.case_id || '',
       payload.image_path || '',
       payload.verdict || '',
       arr_(payload.observed_labels),
-      arr_(payload.reasons),
       payload.comment || '',
       payload.elapsed_ms || '',
       payload.app_version || '',
       payload.user_agent || '',
       JSON.stringify(payload)
-    ]);
+    ];
+
+    const existingRow = findRowByKey_(sheet, key);
+    if (existingRow > 0) {
+      sheet.getRange(existingRow, 1, 1, HEADERS.length).setValues([row]);
+    } else {
+      sheet.appendRow(row);
+    }
 
     return ContentService
       .createTextOutput(JSON.stringify({ ok: true }))
@@ -83,9 +80,6 @@ function doPost(e) {
 function parsePayload_(e) {
   if (e && e.postData && e.postData.contents) {
     return JSON.parse(e.postData.contents);
-  }
-  if (e && e.parameter && e.parameter.payload) {
-    return JSON.parse(e.parameter.payload);
   }
   return {};
 }
@@ -102,6 +96,17 @@ function ensureHeaders_(sheet) {
     sheet.getRange(1, 1, 1, HEADERS.length).setValues([HEADERS]);
     sheet.setFrozenRows(1);
   }
+}
+
+function findRowByKey_(sheet, key) {
+  if (!key) return -1;
+  const lastRow = sheet.getLastRow();
+  if (lastRow < 2) return -1;
+  const values = sheet.getRange(2, 1, lastRow - 1, 1).getValues();
+  for (let i = 0; i < values.length; i++) {
+    if (values[i][0] === key) return i + 2;
+  }
+  return -1;
 }
 
 function arr_(value) {
